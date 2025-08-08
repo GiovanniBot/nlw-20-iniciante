@@ -12,19 +12,19 @@ const changeLogoBasedOnGameSelected = () => {
   switch (selectedGame) {
     case "lol":
       logo.innerHTML = `
-        <img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/9eb028de391e65072d06e77f06d0955f66b9fa2c-736x316.png?auto=format&fit=fill&q=80&w=300" />
+        <img src="./assets/logo-lol.avif" />
       `;
       break;
 
     case "valorant":
       logo.innerHTML = `
-          <img src="https://cmsassets.rgpub.io/sanity/images/dsfx7636/news/7b76209193f1bfe190d3ae6ef8728328870be9c3-736x138.png?auto=format&fit=fill&q=80&w=736" />
+          <img src="./assets/logo-valorant.avif" />
         `;
       break;
 
     case "counter-strike-2":
       logo.innerHTML = `
-          <img src="https://cdn.akamai.steamstatic.com/apps/csgo/images/csgo_react/global/logo_counterstrike2_white.svg" />
+          <img src="./assets/logo-cs2.svg" />
         `;
       break;
     default:
